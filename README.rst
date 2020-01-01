@@ -135,7 +135,7 @@ and then editing the results to include your name, email, and various configurat
 
 First, get Cookiecutter. Trust me, it's awesome::
 
-    $ pip install "cookiecutter>=1.4.0"
+    $ pip install "cookiecutter>=1.6.0"
 
 Now run it against this repo::
 
@@ -153,22 +153,22 @@ Answer the prompts with your own desired options_. For example::
     remote: Total 550 (delta 283), reused 479 (delta 222)
     Receiving objects: 100% (550/550), 127.66 KiB | 58 KiB/s, done.
     Resolving deltas: 100% (283/283), done.
-    project_name [Project Name]: Reddit Clone
-    project_slug [reddit_clone]: reddit
-    author_name [Daniel Roy Greenfeld]: Daniel Greenfeld
-    email [you@example.com]: pydanny@gmail.com
-    description [Behold My Awesome Project!]: A reddit clone.
-    domain_name [example.com]: myreddit.com
+    project_name [Project Name]: Scaffold
+    project_slug [reddit_clone]: scaffold
+    author_name [Daniel Roy Greenfeld]: Vicente Reyes
+    email [you@example.com]: vicentereyes.freelance@gmail.com
+    description [Behold My Awesome Project!]: A scaffold of my future projects.
+    domain_name [example.com]: example.com
     version [0.1.0]: 0.0.1
-    timezone [UTC]: America/Los_Angeles
-    use_whitenoise [n]: n
-    use_celery [n]: y
+    timezone [UTC]: Asia/Manila
+    use_whitenoise [n]: y
+    use_celery [n]: n
     use_mailhog [n]: n
-    use_sentry [n]: y
-    use_pycharm [n]: y
+    use_sentry [n]: n
+    use_pycharm [n]: n
     windows [n]: n
     use_docker [n]: n
-    use_heroku [n]: y
+    use_heroku [n]: n
     use_compressor [n]: y
     Select postgresql_version:
     1 - 11.3
@@ -185,7 +185,7 @@ Answer the prompts with your own desired options_. For example::
     1 - AWS
     2 - GCP
     3 - None
-    Choose from 1, 2, 3 [1]: 1
+    Choose from 1, 2, 3 [1]: 3
     custom_bootstrap_compilation [n]: n
     Select open_source_license:
     1 - MIT
@@ -193,13 +193,13 @@ Answer the prompts with your own desired options_. For example::
     3 - GPLv3
     4 - Apache Software License 2.0
     5 - Not open source
-    Choose from 1, 2, 3, 4, 5 [1]: 1
+    Choose from 1, 2, 3, 4, 5 [1]: 3
     keep_local_envs_in_vcs [y]: y
     debug[n]: n
 
 Enter the project and take a look around::
 
-    $ cd reddit/
+    $ cd scaffold/
     $ ls
 
 Create a git repo and push it there::
