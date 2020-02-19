@@ -1,28 +1,8 @@
 -r ./base.txt
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Werkzeug==0.16.0  # pyup: < 0.15 # https://github.com/pallets/werkzeug
-ipdb==0.12.3  # https://github.com/gotcha/ipdb
-Sphinx==2.3.1  # https://github.com/sphinx-doc/sphinx
-=======
-Werkzeug==0.16.0 # https://github.com/pallets/werkzeug
-=======
-Werkzeug==0.16.1 # https://github.com/pallets/werkzeug
->>>>>>> upstream/master
-ipdb==0.12.3  # https://github.com/gotcha/ipdb
-<<<<<<< HEAD
-Sphinx==2.3.0  # https://github.com/sphinx-doc/sphinx
->>>>>>> upstream/master
-=======
-Sphinx==2.3.1  # https://github.com/sphinx-doc/sphinx
->>>>>>> upstream/master
-=======
 Werkzeug==1.0.0 # https://github.com/pallets/werkzeug
 ipdb==0.12.3  # https://github.com/gotcha/ipdb
 Sphinx==2.4.2  # https://github.com/sphinx-doc/sphinx
->>>>>>> upstream/master
 {%- if cookiecutter.use_docker == 'y' %}
 psycopg2==2.8.4 --no-binary psycopg2  # https://github.com/psycopg/psycopg2
 {%- else %}
@@ -32,34 +12,14 @@ psycopg2-binary==2.8.4  # https://github.com/psycopg/psycopg2
 # Testing
 # ------------------------------------------------------------------------------
 mypy==0.761  # https://github.com/python/mypy
-<<<<<<< HEAD
-<<<<<<< HEAD
-pytest==5.3.2  # https://github.com/pytest-dev/pytest
-=======
-pytest==5.3.1  # https://github.com/pytest-dev/pytest
->>>>>>> upstream/master
-=======
 django-stubs==1.4.0  # https://github.com/typeddjango/django-stubs
 pytest==5.3.5  # https://github.com/pytest-dev/pytest
->>>>>>> upstream/master
 pytest-sugar==0.9.2  # https://github.com/Frozenball/pytest-sugar
 
 # Code quality
 # ------------------------------------------------------------------------------
 flake8==3.7.9  # https://github.com/PyCQA/flake8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-coverage==5.0.1  # https://github.com/nedbat/coveragepy
-=======
-coverage==5.0  # https://github.com/nedbat/coveragepy
->>>>>>> upstream/master
-=======
-coverage==5.0.2  # https://github.com/nedbat/coveragepy
->>>>>>> upstream/master
-=======
 coverage==5.0.3  # https://github.com/nedbat/coveragepy
->>>>>>> upstream/master
 black==19.10b0  # https://github.com/ambv/black
 pylint-django==2.0.13  # https://github.com/PyCQA/pylint-django
 {%- if cookiecutter.use_celery == 'y' %}
