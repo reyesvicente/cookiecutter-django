@@ -154,14 +154,14 @@ Answer the prompts with your own desired options_. For example::
     Receiving objects: 100% (550/550), 127.66 KiB | 58 KiB/s, done.
     Resolving deltas: 100% (283/283), done.
     project_name [Project Name]: Scaffold
-    project_slug [reddit_clone]: scaffold
-    author_name [Daniel Roy Greenfeld]: Vicente Reyes
-    email [you@example.com]: vicentereyes.freelance@gmail.com
+    project_slug [scaffold]: scaffold
+    author_name [Vicente Reyes]: Vicente Reyes
+    email [you@example.com]: you@example.com
     description [Behold My Awesome Project!]: A scaffold of my future projects.
     domain_name [example.com]: example.com
     version [0.1.0]: 0.0.1
     timezone [UTC]: Asia/Manila
-    use_whitenoise [n]: y
+    use_whitenoise [n]: n
     use_celery [n]: n
     use_mailhog [n]: n
     use_sentry [n]: n
@@ -169,7 +169,7 @@ Answer the prompts with your own desired options_. For example::
     windows [n]: n
     use_docker [n]: n
     use_heroku [n]: n
-    use_compressor [n]: y
+    use_compressor [n]: n
     Select postgresql_version:
     1 - 11.3
     2 - 10.8
@@ -185,7 +185,7 @@ Answer the prompts with your own desired options_. For example::
     1 - AWS
     2 - GCP
     3 - None
-    Choose from 1, 2, 3 [1]: 3
+    Choose from 1, 2, 3 [1]: 2
     custom_bootstrap_compilation [n]: n
     Select open_source_license:
     1 - MIT
