@@ -3,6 +3,24 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## 2023.11.30
+
+
+### Fixed
+
+- Removed tmp mount in devcontainer.json. Fix #4686 ([#4708](https://github.com/cookiecutter/cookiecutter-django/pull/4708))
+
+### Updated
+
+- Bump traefik from 2.10.5 to 2.10.6 ([#4706](https://github.com/cookiecutter/cookiecutter-django/pull/4706))
+
+## 2023.11.29
+
+
+### Updated
+
+- Update sentry-sdk to 1.38.0 ([#4705](https://github.com/cookiecutter/cookiecutter-django/pull/4705))
+
 ## 2023.11.28
 
 
