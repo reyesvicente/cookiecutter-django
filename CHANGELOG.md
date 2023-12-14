@@ -3,6 +3,44 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## 2023.12.13
+
+
+### Updated
+
+- Auto-update pre-commit hooks ([#4740](https://github.com/cookiecutter/cookiecutter-django/pull/4740))
+
+## 2023.12.12
+
+
+### Updated
+
+- Update django-allauth to 0.59.0 ([#4739](https://github.com/cookiecutter/cookiecutter-django/pull/4739))
+
+- Update sentry-sdk to 1.39.0 ([#4738](https://github.com/cookiecutter/cookiecutter-django/pull/4738))
+
+- Update black to 23.12.0 ([#4737](https://github.com/cookiecutter/cookiecutter-django/pull/4737))
+
+- Auto-update pre-commit hooks ([#4736](https://github.com/cookiecutter/cookiecutter-django/pull/4736))
+
+- Update drf-spectacular to 0.27.0 ([#4735](https://github.com/cookiecutter/cookiecutter-django/pull/4735))
+
+## 2023.12.11
+
+
+### Updated
+
+- Auto-update pre-commit hooks ([#4730](https://github.com/cookiecutter/cookiecutter-django/pull/4730))
+
+## 2023.12.10
+
+
+### Updated
+
+- Update pre-commit to 3.6.0 ([#4728](https://github.com/cookiecutter/cookiecutter-django/pull/4728))
+
+- Auto-update pre-commit hooks ([#4729](https://github.com/cookiecutter/cookiecutter-django/pull/4729))
+
 ## 2023.12.09
 
 
