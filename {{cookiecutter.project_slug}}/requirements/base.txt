@@ -23,7 +23,7 @@ flower==2.0.1  # https://github.com/mher/flower
 {%- endif %}
 {%- endif %}
 {%- if cookiecutter.use_async == 'y' %}
-uvicorn[standard]==0.25.0  # https://github.com/encode/uvicorn
+uvicorn[standard]==0.27.0  # https://github.com/encode/uvicorn
 {%- endif %}
 
 # Django
@@ -43,8 +43,8 @@ django-redis==5.4.0  # https://github.com/jazzband/django-redis
 djangorestframework==3.14.0  # https://github.com/encode/django-rest-framework
 django-cors-headers==4.3.1  # https://github.com/adamchainz/django-cors-headers
 # DRF-spectacular for api documentation
-drf-spectacular==0.27.0  # https://github.com/tfranzel/drf-spectacular
+drf-spectacular==0.27.1  # https://github.com/tfranzel/drf-spectacular
 {%- endif %}
 {%- if cookiecutter.frontend_pipeline == 'Webpack' %}
-django-webpack-loader==2.0.1  # https://github.com/django-webpack/django-webpack-loader
+django-webpack-loader==3.0.1  # https://github.com/django-webpack/django-webpack-loader
 {%- endif %}
