@@ -657,6 +657,13 @@ Listed in alphabetical order.
     <td>DavidDiazPinto</td>
   </tr>
   <tr>
+    <td>David Păcioianu</td>
+    <td>
+      <a href="https://github.com/DavidPacioianu">DavidPacioianu</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Davit Tovmasyan</td>
     <td>
       <a href="https://github.com/davitovmasyan">davitovmasyan</a>
@@ -811,6 +818,13 @@ Listed in alphabetical order.
     <td>fabaff</td>
   </tr>
   <tr>
+    <td>farwill</td>
+    <td>
+      <a href="https://github.com/farwill">farwill</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Fateme Fouladkar</td>
     <td>
       <a href="https://github.com/FatemeFouladkar">FatemeFouladkar</a>
@@ -874,6 +888,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Geo Maciolek</td>
+    <td>
+      <a href="https://github.com/GeoMaciolek">GeoMaciolek</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>ghazi-git</td>
     <td>
       <a href="https://github.com/ghazi-git">ghazi-git</a>
@@ -912,6 +933,13 @@ Listed in alphabetical order.
     <td>Guilherme Guy</td>
     <td>
       <a href="https://github.com/guilherme1guy">guilherme1guy</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>GvS</td>
+    <td>
+      <a href="https://github.com/GvS666">GvS666</a>
     </td>
     <td></td>
   </tr>
@@ -1385,6 +1413,13 @@ Listed in alphabetical order.
     <td>marciomazza</td>
   </tr>
   <tr>
+    <td>Marios Frixou</td>
+    <td>
+      <a href="https://github.com/frixou89">frixou89</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Martin Blech</td>
     <td>
       <a href="https://github.com/"></a>
@@ -1588,6 +1623,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Nadav Peretz</td>
+    <td>
+      <a href="https://github.com/nadavperetz">nadavperetz</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Naveen</td>
     <td>
       <a href="https://github.com/naveensrinivasan">naveensrinivasan</a>
@@ -1665,6 +1707,13 @@ Listed in alphabetical order.
     <td></td>
   </tr>
   <tr>
+    <td>Patrick Zhang</td>
+    <td>
+      <a href="https://github.com/PatDuJour">PatDuJour</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
     <td>Paul Wulff</td>
     <td>
       <a href="https://github.com/mtmpaulwulff">mtmpaulwulff</a>
@@ -1724,6 +1773,13 @@ Listed in alphabetical order.
     <td>Plurific</td>
     <td>
       <a href="https://github.com/paulschwenn">paulschwenn</a>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>quroom</td>
+    <td>
+      <a href="https://github.com/quroom">quroom</a>
     </td>
     <td></td>
   </tr>

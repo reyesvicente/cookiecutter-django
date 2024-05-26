@@ -57,12 +57,11 @@ SUPPORTED_COMBINATIONS = [
     {"editor": "VS Code"},
     {"use_docker": "y"},
     {"use_docker": "n"},
+    {"postgresql_version": "16"},
     {"postgresql_version": "15"},
     {"postgresql_version": "14"},
     {"postgresql_version": "13"},
     {"postgresql_version": "12"},
-    {"postgresql_version": "11"},
-    {"postgresql_version": "10"},
     {"cloud_provider": "AWS", "use_whitenoise": "y"},
     {"cloud_provider": "AWS", "use_whitenoise": "n"},
     {"cloud_provider": "GCP", "use_whitenoise": "y"},
@@ -248,7 +247,13 @@ def test_djlint_lint_passes(cookies, context_override):
     # TODO: remove T002 when fixed https://github.com/Riverside-Healthcare/djLint/issues/687
     ignored_rules = "H006,H030,H031,T002"
     try:
-        sh.djlint("--lint", "--ignore", f"{autofixable_rules},{ignored_rules}", ".", _cwd=str(result.project_path))
+        sh.djlint(
+            "--lint",
+            "--ignore",
+            f"{autofixable_rules},{ignored_rules}",
+            ".",
+            _cwd=str(result.project_path),
+        )
     except sh.ErrorReturnCode as e:
         pytest.fail(e.stdout.decode())
 
@@ -269,7 +274,7 @@ def test_djlint_check_passes(cookies, context_override):
     ["use_docker", "expected_test_script"],
     [
         ("n", "pytest"),
-        ("y", "docker compose -f local.yml run django pytest"),
+        ("y", "docker compose -f docker-compose.local.yml run django pytest"),
     ],
 )
 def test_travis_invokes_pytest(cookies, context, use_docker, expected_test_script):
@@ -294,7 +299,7 @@ def test_travis_invokes_pytest(cookies, context, use_docker, expected_test_scrip
     ["use_docker", "expected_test_script"],
     [
         ("n", "pytest"),
-        ("y", "docker compose -f local.yml run django pytest"),
+        ("y", "docker compose -f docker-compose.local.yml run django pytest"),
     ],
 )
 def test_gitlab_invokes_precommit_and_pytest(cookies, context, use_docker, expected_test_script):
@@ -321,7 +326,7 @@ def test_gitlab_invokes_precommit_and_pytest(cookies, context, use_docker, expec
     ["use_docker", "expected_test_script"],
     [
         ("n", "pytest"),
-        ("y", "docker compose -f local.yml run django pytest"),
+        ("y", "docker compose -f docker-compose.local.yml run django pytest"),
     ],
 )
 def test_github_invokes_linter_and_pytest(cookies, context, use_docker, expected_test_script):
