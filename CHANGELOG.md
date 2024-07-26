@@ -3,6 +3,410 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 <!-- GENERATOR_PLACEHOLDER -->
 
+## 2024.07.25
+
+
+### Changed
+
+- Upgrade to Django 5.0 ([#5199](https://github.com/cookiecutter/cookiecutter-django/pull/5199))
+
+### Updated
+
+- Update pytest to 8.3.2 ([#5249](https://github.com/cookiecutter/cookiecutter-django/pull/5249))
+
+- Update sentry-sdk to 2.11.0 ([#5247](https://github.com/cookiecutter/cookiecutter-django/pull/5247))
+
+## 2024.07.24
+
+
+### Changed
+
+- fix non existent of two scoops of django image ([#5248](https://github.com/cookiecutter/cookiecutter-django/pull/5248))
+
+## 2024.07.23
+
+
+### Changed
+
+- Ensure that awscli service has a CMD to fix #5241 ([#5245](https://github.com/cookiecutter/cookiecutter-django/pull/5245))
+
+### Fixed
+
+- Downgrade watchfiles ([#5243](https://github.com/cookiecutter/cookiecutter-django/pull/5243))
+
+## 2024.07.22
+
+
+### Updated
+
+- Update django-compressor to 4.5.1 ([#5240](https://github.com/cookiecutter/cookiecutter-django/pull/5240))
+
+## 2024.07.21
+
+
+### Updated
+
+- Update ruff to 0.5.4 ([#5237](https://github.com/cookiecutter/cookiecutter-django/pull/5237))
+
+- Update pytest to 8.3.1 ([#5236](https://github.com/cookiecutter/cookiecutter-django/pull/5236))
+
+- Update sphinx to 7.4.7 ([#5235](https://github.com/cookiecutter/cookiecutter-django/pull/5235))
+
+## 2024.07.20
+
+
+### Updated
+
+- Update hiredis to 3.0.0 ([#5228](https://github.com/cookiecutter/cookiecutter-django/pull/5228))
+
+- Update uvicorn to 0.30.3 ([#5234](https://github.com/cookiecutter/cookiecutter-django/pull/5234))
+
+- Update django-crispy-forms to 2.3 ([#5229](https://github.com/cookiecutter/cookiecutter-django/pull/5229))
+
+- Auto-update pre-commit hooks ([#5232](https://github.com/cookiecutter/cookiecutter-django/pull/5232))
+
+## 2024.07.19
+
+
+### Changed
+
+- Use &#34;ENV key=value&#34; instead of &#34;ENV key value&#34; in Dockerfiles ([#5225](https://github.com/cookiecutter/cookiecutter-django/pull/5225))
+
+### Updated
+
+- Update django-upgrade to 1.20.0 ([#5227](https://github.com/cookiecutter/cookiecutter-django/pull/5227))
+
+- Update ruff to 0.5.3 ([#5224](https://github.com/cookiecutter/cookiecutter-django/pull/5224))
+
+## 2024.07.18
+
+
+### Updated
+
+- Update sphinx to 7.4.6 ([#5223](https://github.com/cookiecutter/cookiecutter-django/pull/5223))
+
+## 2024.07.17
+
+
+### Updated
+
+- Update sphinx to 7.4.5 ([#5222](https://github.com/cookiecutter/cookiecutter-django/pull/5222))
+
+## 2024.07.16
+
+
+### Fixed
+
+- Clear `ENTRYPOINT` in `awscli` image to allow script execution ([#5221](https://github.com/cookiecutter/cookiecutter-django/pull/5221))
+
+### Updated
+
+- Update sphinx to 7.4.4 ([#5218](https://github.com/cookiecutter/cookiecutter-django/pull/5218))
+
+## 2024.07.15
+
+
+### Updated
+
+- Update sentry-sdk to 2.10.0 ([#5216](https://github.com/cookiecutter/cookiecutter-django/pull/5216))
+
+- Update sphinx to 7.4.2 ([#5215](https://github.com/cookiecutter/cookiecutter-django/pull/5215))
+
+- Update ruff to 0.5.2 ([#5211](https://github.com/cookiecutter/cookiecutter-django/pull/5211))
+
+- Update sphinx to 7.4.0 ([#5214](https://github.com/cookiecutter/cookiecutter-django/pull/5214))
+
+## 2024.07.12
+
+
+### Updated
+
+- Update django-allauth to 0.63.6 ([#5210](https://github.com/cookiecutter/cookiecutter-django/pull/5210))
+
+- Update django-allauth to 0.63.5 ([#5206](https://github.com/cookiecutter/cookiecutter-django/pull/5206))
+
+- Update coverage to 7.6.0 ([#5207](https://github.com/cookiecutter/cookiecutter-django/pull/5207))
+
+- Update django-anymail to 11.0.1 ([#5208](https://github.com/cookiecutter/cookiecutter-django/pull/5208))
+
+## 2024.07.10
+
+
+### Updated
+
+- Update django-allauth to 0.63.4 ([#5204](https://github.com/cookiecutter/cookiecutter-django/pull/5204))
+
+- Update django to 4.2.14 ([#5200](https://github.com/cookiecutter/cookiecutter-django/pull/5200))
+
+- Update collectfasta to 3.2.0 ([#5201](https://github.com/cookiecutter/cookiecutter-django/pull/5201))
+
+- Update sentry-sdk to 2.9.0 ([#5202](https://github.com/cookiecutter/cookiecutter-django/pull/5202))
+
+- Update django-debug-toolbar to 4.4.6 ([#5203](https://github.com/cookiecutter/cookiecutter-django/pull/5203))
+
+## 2024.07.09
+
+
+### Changed
+
+- Migrate from Collectfast to Collestfasta ([#5172](https://github.com/cookiecutter/cookiecutter-django/pull/5172))
+
+### Documentation
+
+- Fix a typo in the `--all` option of the `makemessages` command ([#5198](https://github.com/cookiecutter/cookiecutter-django/pull/5198))
+
+### Updated
+
+- Update django-storages to 1.14.4 ([#5197](https://github.com/cookiecutter/cookiecutter-django/pull/5197))
+
+## 2024.07.08
+
+
+### Updated
+
+- Update ruff to 0.5.1 ([#5190](https://github.com/cookiecutter/cookiecutter-django/pull/5190))
+
+- Update django-debug-toolbar to 4.4.5 ([#5192](https://github.com/cookiecutter/cookiecutter-django/pull/5192))
+
+- Update sentry-sdk to 2.8.0 ([#5195](https://github.com/cookiecutter/cookiecutter-django/pull/5195))
+
+## 2024.07.05
+
+
+### Updated
+
+- Update django-debug-toolbar to 4.4.3 ([#5189](https://github.com/cookiecutter/cookiecutter-django/pull/5189))
+
+## 2024.07.02
+
+
+### Updated
+
+- Update pillow to 10.4.0 ([#5182](https://github.com/cookiecutter/cookiecutter-django/pull/5182))
+
+## 2024.07.01
+
+
+### Updated
+
+- Update ruff to 0.5.0 ([#5181](https://github.com/cookiecutter/cookiecutter-django/pull/5181))
+
+- Update sentry-sdk to 2.7.1 ([#5174](https://github.com/cookiecutter/cookiecutter-django/pull/5174))
+
+- Auto-update pre-commit hooks ([#5175](https://github.com/cookiecutter/cookiecutter-django/pull/5175))
+
+- Update psycopg to 3.2.1 ([#5180](https://github.com/cookiecutter/cookiecutter-django/pull/5180))
+
+## 2024.06.30
+
+
+### Updated
+
+- Update django-upgrade to 1.19.0 ([#5171](https://github.com/cookiecutter/cookiecutter-django/pull/5171))
+
+## 2024.06.26
+
+
+### Fixed
+
+- Fix keywords case warning in Dockerfile ([#5164](https://github.com/cookiecutter/cookiecutter-django/pull/5164))
+
+### Updated
+
+- Update redis to 5.0.7 ([#5170](https://github.com/cookiecutter/cookiecutter-django/pull/5170))
+
+- Update sentry-sdk to 2.7.0 ([#5169](https://github.com/cookiecutter/cookiecutter-django/pull/5169))
+
+## 2024.06.24
+
+
+### Updated
+
+- Update django-anymail to 11.0 ([#5163](https://github.com/cookiecutter/cookiecutter-django/pull/5163))
+
+- Update coverage to 7.5.4 ([#5162](https://github.com/cookiecutter/cookiecutter-django/pull/5162))
+
+## 2024.06.22
+
+
+### Updated
+
+- Bump amazon/aws-cli from 2.16.10 to 2.17.0 ([#5161](https://github.com/cookiecutter/cookiecutter-django/pull/5161))
+
+- Auto-update pre-commit hooks ([#5160](https://github.com/cookiecutter/cookiecutter-django/pull/5160))
+
+- Update ruff to 0.4.10 ([#5159](https://github.com/cookiecutter/cookiecutter-django/pull/5159))
+
+## 2024.06.20
+
+
+### Fixed
+
+- Remove deprecated docker and python tags from GitLab CI config ([#5158](https://github.com/cookiecutter/cookiecutter-django/pull/5158))
+
+## 2024.06.19
+
+
+### Updated
+
+- Update djangorestframework to 3.15.2 ([#5156](https://github.com/cookiecutter/cookiecutter-django/pull/5156))
+
+- Update django-cors-headers to 4.4.0 ([#5154](https://github.com/cookiecutter/cookiecutter-django/pull/5154))
+
+- Update sentry-sdk to 2.6.0 ([#5153](https://github.com/cookiecutter/cookiecutter-django/pull/5153))
+
+- Update whitenoise to 6.7.0 ([#5155](https://github.com/cookiecutter/cookiecutter-django/pull/5155))
+
+## 2024.06.18
+
+
+### Updated
+
+- Bump amazon/aws-cli from 2.16.8 to 2.16.10 ([#5149](https://github.com/cookiecutter/cookiecutter-django/pull/5149))
+
+## 2024.06.17
+
+
+### Updated
+
+- Update django-compressor to 4.5 ([#5145](https://github.com/cookiecutter/cookiecutter-django/pull/5145))
+
+- Update rcssmin to 1.1.2 ([#4614](https://github.com/cookiecutter/cookiecutter-django/pull/4614))
+
+## 2024.06.15
+
+
+### Changed
+
+- Update start-flower in flower to wait until all celery workers are online ([#5012](https://github.com/cookiecutter/cookiecutter-django/pull/5012))
+
+- Enhancing the security of cookies ([#5102](https://github.com/cookiecutter/cookiecutter-django/pull/5102))
+
+### Updated
+
+- Update django-crispy-forms to 2.2 ([#5143](https://github.com/cookiecutter/cookiecutter-django/pull/5143))
+
+- Update sentry-sdk to 2.5.1 ([#5142](https://github.com/cookiecutter/cookiecutter-django/pull/5142))
+
+- Auto-update pre-commit hooks ([#5140](https://github.com/cookiecutter/cookiecutter-django/pull/5140))
+
+- Update django-allauth to 0.63.3 ([#5111](https://github.com/cookiecutter/cookiecutter-django/pull/5111))
+
+## 2024.06.14
+
+
+### Updated
+
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/docs ([#5129](https://github.com/cookiecutter/cookiecutter-django/pull/5129))
+
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/django ([#5130](https://github.com/cookiecutter/cookiecutter-django/pull/5130))
+
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/production/django ([#5132](https://github.com/cookiecutter/cookiecutter-django/pull/5132))
+
+- Bump amazon/aws-cli from 2.16.6 to 2.16.8 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5138](https://github.com/cookiecutter/cookiecutter-django/pull/5138))
+
+- Update ruff to 0.4.9 ([#5139](https://github.com/cookiecutter/cookiecutter-django/pull/5139))
+
+## 2024.06.13
+
+
+### Updated
+
+- Update redis to 5.0.6 ([#5137](https://github.com/cookiecutter/cookiecutter-django/pull/5137))
+
+## 2024.06.12
+
+
+### Updated
+
+- Bump amazon/aws-cli Docker image from 2.15.58 to 2.16.6 ([#5135](https://github.com/cookiecutter/cookiecutter-django/pull/5135))
+
+## 2024.06.08
+
+
+### Changed
+
+- Replace deprecated `uvicorn.workers` with `uvicorn-worker` ([#5110](https://github.com/cookiecutter/cookiecutter-django/pull/5110))
+
+- Change aws-cli docker image to use official amazon image ([#5116](https://github.com/cookiecutter/cookiecutter-django/pull/5116))
+
+## 2024.06.06
+
+
+### Updated
+
+- Update sentry-sdk to 2.5.0 ([#5126](https://github.com/cookiecutter/cookiecutter-django/pull/5126))
+
+- Update ruff to 0.4.8 ([#5122](https://github.com/cookiecutter/cookiecutter-django/pull/5122))
+
+- Update redis to 5.0.5 ([#5125](https://github.com/cookiecutter/cookiecutter-django/pull/5125))
+
+## 2024.06.04
+
+
+### Updated
+
+- Update pytest to 8.2.2 ([#5120](https://github.com/cookiecutter/cookiecutter-django/pull/5120))
+
+- Update sh to 2.0.7 ([#5114](https://github.com/cookiecutter/cookiecutter-django/pull/5114))
+
+- Update sentry-sdk to 2.4.0 ([#5119](https://github.com/cookiecutter/cookiecutter-django/pull/5119))
+
+## 2024.06.02
+
+
+### Updated
+
+- Update uvicorn to 0.30.1 ([#5115](https://github.com/cookiecutter/cookiecutter-django/pull/5115))
+
+## 2024.06.01
+
+
+### Updated
+
+- Update ruff to 0.4.7 ([#5112](https://github.com/cookiecutter/cookiecutter-django/pull/5112))
+
+## 2024.05.30
+
+
+### Updated
+
+- Update uvicorn to 0.30.0 ([#5101](https://github.com/cookiecutter/cookiecutter-django/pull/5101))
+
+## 2024.05.29
+
+
+### Updated
+
+- Update requests to 2.32.3 ([#5108](https://github.com/cookiecutter/cookiecutter-django/pull/5108))
+
+- Update ruff to 0.4.6 ([#5107](https://github.com/cookiecutter/cookiecutter-django/pull/5107))
+
+- Auto-update pre-commit hooks ([#5106](https://github.com/cookiecutter/cookiecutter-django/pull/5106))
+
+- Update coverage to 7.5.3 ([#5104](https://github.com/cookiecutter/cookiecutter-django/pull/5104))
+
+- Update django-upgrade to 1.18.0 ([#5105](https://github.com/cookiecutter/cookiecutter-django/pull/5105))
+
+## 2024.05.27
+
+
+### Changed
+
+- Rename SendInBlue ESP to Brevo ([#5094](https://github.com/cookiecutter/cookiecutter-django/pull/5094))
+
+### Updated
+
+- Update django-stubs to 5.0.2 ([#5100](https://github.com/cookiecutter/cookiecutter-django/pull/5100))
+
+- Update watchfiles to 0.22.0 ([#5099](https://github.com/cookiecutter/cookiecutter-django/pull/5099))
+
+- Update django-allauth to 0.63.2 ([#5092](https://github.com/cookiecutter/cookiecutter-django/pull/5092))
+
+- Update coverage to 7.5.2 ([#5095](https://github.com/cookiecutter/cookiecutter-django/pull/5095))
+
+- Update django-debug-toolbar to 4.4.2 ([#5098](https://github.com/cookiecutter/cookiecutter-django/pull/5098))
+
 ## 2024.05.23
 
 
